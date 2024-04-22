@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "IBM";
+    src: url(./Font-IBMThai/IBMPlexSansThai-Medium.ttf);
+}
+Body, html {
+    font-family: "IBM";
+    background-color: rgb(70, 101, 255);
+    /* background-color: rgb(227, 225, 236); */
+}
+.Footer {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(45, 45, 54);
+    color: white;
+}
+.Box-Top {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(221, 154, 28);
+    box-shadow: 2px 2px 3px 3px rgb(109, 109, 109);
+}
+.Maintext {
+    display: block;
+    margin: auto;
+    padding: 34px;
+    border-radius: 15px;
+    width: 40%;
+    height: 97px;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 176, 29);
+    box-shadow: 2px 2px 3px 3px rgb(109, 109, 109);
+}
+.I-C-T {
+    display: block; 
+    margin: auto; 
+    margin-top: 40px;
+    padding: 40px; 
+    text-align: center; 
+    width: 90%; 
+    background-color: rgb(255, 234, 196); 
+    border-radius: 15px; 
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px 3px rgb(110, 76, 11);
+}
+.picture {
+    margin: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 3px rgb(36, 24, 12);
+    width: 40%;
+    height: 40%;
+}
+.picture:hover {
+    width: 45%;
+    height: 45%;
+    transition: 0.3s;
+}
+
+.BoxIndex {
+    display: flex;
+    justify-content: center;
+}
